@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz App</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9b1c8d52ed.js" crossorigin="anonymous"></script>
+	<link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAANzc3MwkJCeEVFRWNMzMzBVVVVQYfHh6oKSgo/wgICP8DBAT/AwMD/wMDA/8DAwP/BAMD/xswOv85Rk/9FBQUrz8/PwxFRUUWFBQUrQsLC7guLi4WMTExgSgpLf8cGhr/FxcX/xIREf8WFhbXExMTwggICNErQUufVmBlMgsLC9cJCQndICAgV6qqqgMSEhKMICIo5IGgye2Lr+L/YXus/zlGZv8uMkL/JSUlSwAAAAAAAAAAAAAAAAAAAABxcXEJHh4ebQsLC9oODg7HIyMmVoSjzvOnz/f/pc33/5/H+P+VvPT/W4TI/zVigpRtbW0HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANjY2LzpHX8Cexe//mr3d/5q+4v+bv+P/nsX1/3yk3v8wdav0OlVkMAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZBWZmZgpmfJrVo8jp/5C15f+fxvX/osr1/46z5f+WvOv/epa3/lxcZCEAAAAAAAAAAAAAAAAAAAAATWx5O6qqqgYvQE2lTmB2/2pdTv+cwev/n8j4/5m+6/+WvfH/dpzF/3qYwv9IYG+UUF1rEwAAAAAAAAAAAAAAAD9xhDgxfqKPIGp98kxJTP9NbZL/lb/u/4eo4P96Zk3/nLzg/0yJuv8nNEL/FmGe3m1tkQcAAAAAAAAAAAAAAAAAAAAALJW7mxZikv+MgHv/hnhx/2Vlav9IZIT/UV91/z5fgf8LDQ//Bxwu/wxuvfIkZZtaAAAAAAAAAAAAAAAAAAAAAEtnZxsllr3vOTc2/5+Xlv+sn5n/fYaN/1ZcYf8JRnX/BQgL/wpdoP8cfsH0PGuQTAAAAAAAAAAAAAAAAAAAAAAubqJTHIvP9xtbfv8QEBD/TUdF/2FfYf8de7X/GW+i/yiLtv8aj9r/DnvN/yViknUAAAAAAAAAAAAAAABmZmYFNH2qajaMvLcmoeP/NZm3/xlHXP8UN0n/KJ7g/yOd4P86vPX/HZPd/yxkkJZqc3sfAAAAAAAAAAAAAAAAAAAAAAAAAAAoa5pwNLPv/0XJ9P8wruz/Rc36/za69P8/zfz/HYXK8Deay7k3eaWdqqqqAwAAAAAAAAAAAAAAAAAAAAAAAAAASYmmc0mTrWFDka+AOKDT6EGz4e0sjcPIMq/VzSyRxd8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUnB4IkZ1iUFRhJgyQoapd6qqqgNBcoxOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzAAAAGQBAAAwHwAAyA8AAPAPAADwDwAA4AcAAMAHAADABwAA4AcAAOAHAADgBwAA8AcAAPgfAAD//wAA//8AAA==" rel="icon" type="image/x-icon" />
+	<link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+	<div class="quiz_wrapper">  
+		<h1>How Well Do You Know Naruto?</h1>	
+		<h4>Question <span class="current"></span> of <span class="total"></span></h4>  
+		<div class="question" id="questionBox"> 
+		  </div> 
+           <div class="options">
+           	  <ul id="ul">
+           	  	  <li id="op1" ></li>
+           	  	  <li id="op2" ></li>
+           	  	  <li id="op3" ></li>
+           	  	  <li id="op4" ></li>
+           	  </ul>
+           </div>
+           <div class="score">
+           	   <div class="next">
+           	   	  <button id="button" class="nextbtn">Next</button>
+			   </div>
+           	   <div class="score-card">
+           	   	  Score : <span class="scoreCard"></span> / 5
+           	   </div>
+           </div>
+	</div>
+	<footer id="main-footer">
+        Made with <i class="fa fa-fire" aria-hidden="true"></i>  by  <a href="https://twitter.com/SkyC0der_" target="_blank">SkyCoder</a>
+    </footer>
+<script src="js/script.js"></script>
+</body>
+</html>
